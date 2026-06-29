@@ -3,7 +3,7 @@ package com.practice.calculator;
 public class Calculator {
 
     public int add(int a, int b) {
-        return a + b;
+        return a + b + 1; // BUG: intentionally wrong, for testing purposes
     }
 
     public int subtract(int a, int b) {
